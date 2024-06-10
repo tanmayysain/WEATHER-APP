@@ -1,8 +1,19 @@
-# React + Vite
+# To Run the Application Locally in you system
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You need to First of all open the file in VS Code or any other ICE which you are using. 
+You can follow the steps:
+1. Extract the file after downloading it from the github.
+2. Then after opening it in a IDE (ex. Vs Code), open the terminal in the IDE and run 
+ :=  npm install to download all the relevant packages.
+ After that run,
+ :=  npm run dev
+ to run the project locally.
 
-Currently, two official plugins are available:
+For developing the I've used React+vite as the Tech Stack. I've used Rapid Api to fetch:
+(i) Location
+(ii) Temperature, Wind Speed, Humidity and Heat Index
+(iii) Also fetches the weather forecast for next 7 Days.
+According to the weather conditions the background image of the Application gets changed,
+for ex. If the weather is sunny, the bg image will get changed to sunny picture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I've used visual crossing Weather API for fetching the weather details and also I've set the default location as the Jaipur because it is where I belong.
